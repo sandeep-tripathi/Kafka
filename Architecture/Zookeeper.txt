@@ -416,3 +416,24 @@ INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
 INFO [zk-broker-0-to-controller-forwarding-channel-manager]: Recorded new controller, from now on will use node 815f25786085:9092 (id: 0 rack: null) (kafka.server.NodeToControllerRequestThread)
 INFO [zk-broker-0-to-controller-alter-partition-channel-manager]: Recorded new controller, from now on will use node 815f25786085:9092 (id: 0 rack: null) (kafka.server.NodeToControllerRequestThread)
 Kafka Server Started...
+
+
+
+#####################
+Stopping Kafka service
+#####################
+
+ $ bin/kafka-server-stop.sh
+INFO Stopping Apache Kafka services
+...
+INFO Apache Kafka stopped!
+
+#####################
+Stopping Zookeeper
+#####################
+$ bin/zookeeper-server-stop.sh
+INFO Stopping Apache ZooKeeper services
+...
+INFO Apache ZooKeeper stopped!
+$
+
