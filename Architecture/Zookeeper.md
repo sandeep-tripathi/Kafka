@@ -1,4 +1,4 @@
-## $ bin/zookeeper-server-start.sh config/zookeeper.properties
+# $ bin/zookeeper-server-start.sh config/zookeeper.properties
 
 
 
@@ -44,7 +44,7 @@ INFO ZooKeeper Server Started
 
 
 
-## $ bin/kafka-server-start.sh config/server.properties
+# $ bin/kafka-server-start.sh config/server.properties
 bin/kafka-server-start.sh: /usr/share/bashdb/bashdb-main.inc: No such file or directory
 bin/kafka-server-start.sh: warning: cannot start debugger; debugging mode disabled
 INFO Client environment:java.library.path=/opt/java/openjdk/lib/server:/opt/java/openjdk/lib:/opt/java/openjdk/../lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
