@@ -1,4 +1,6 @@
-$ bin/zookeeper-server-start.sh config/zookeeper.propertiesINFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+## $ bin/zookeeper-server-start.sh config/zookeeper.properties
+
+INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
 INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
 INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
 INFO observerMasterPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
@@ -36,7 +38,7 @@ INFO Server environment:java.vendor=Eclipse Adoptium (org.apache.zookeeper.serve
 INFO Server environment:java.home=/opt/java/openjdk (org.apache.zookeeper.server.ZooKeeperServer)
 INFO Server environment:java.class.path=/opt/kafka/bin/../libs/activation-1.1.1.jar:/opt/kafka/bin/../libs/aopalliance-repackaged-2.6.1.jar:1
 INFO ZooKeeper Server Started
-$ bin/kafka-server-start.sh config/server.properties
+## $ bin/kafka-server-start.sh config/server.properties
 bin/kafka-server-start.sh: /usr/share/bashdb/bashdb-main.inc: No such file or directory
 bin/kafka-server-start.sh: warning: cannot start debugger; debugging mode disabled
 INFO Client environment:java.library.path=/opt/java/openjdk/lib/server:/opt/java/openjdk/lib:/opt/java/openjdk/../lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
