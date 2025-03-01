@@ -1,5 +1,6 @@
-== $ bin/zookeeper-server-start.sh config/zookeeper.properties ==
-
+######################################################################
+$ bin/zookeeper-server-start.sh config/zookeeper.properties
+######################################################################
 
 
 INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)WARN config/zookeeper.properties is relative. Prepend ./ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
@@ -43,8 +44,9 @@ INFO ZooKeeper Server Started
 
 
 
-
-== $ bin/kafka-server-start.sh config/server.properties ==
+######################################################################
+$ bin/kafka-server-start.sh config/server.properties
+######################################################################
 bin/kafka-server-start.sh: /usr/share/bashdb/bashdb-main.inc: No such file or directory
 bin/kafka-server-start.sh: warning: cannot start debugger; debugging mode disabled
 INFO Client environment:java.library.path=/opt/java/openjdk/lib/server:/opt/java/openjdk/lib:/opt/java/openjdk/../lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
