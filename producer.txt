@@ -1,2 +1,0 @@
-
-$ echo "This is a test message" | bin/kafka-console-producer.sh --bootstrap-server localhost:9092 --topic phing-sites
