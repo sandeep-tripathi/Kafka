@@ -1,10 +1,10 @@
 
-####create#####
+####create topic#####
 $ bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --top phishing-sites
 Created topic phishing-sites.
 
 
-###decribe####
+###decribe topic####
 $ bin/kafka-topics.sh --describe --bootstrap-server localhost:9092 --topic known-infections
 Topic: known-infections TopicId: fGlNnL-9QqiwGADvQ-QPlQ PartitionCount: 5       ReplicationFactor: 1    Configs:
         Topic: known-infections Partition: 0    Leader: 0       Replicas: 0     Isr: 0
@@ -14,3 +14,9 @@ Topic: known-infections TopicId: fGlNnL-9QqiwGADvQ-QPlQ PartitionCount: 5       
         Topic: known-infections Partition: 4    Leader: 0       Replicas: 0     Isr: 0
 $
 
+
+
+
+###Removing topic####
+$ bin/kafka-topics.sh --delete --bootstrap-server localhost:9092 --topic phishing-sites
+$
